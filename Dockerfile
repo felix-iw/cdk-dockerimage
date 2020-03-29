@@ -1,3 +1,4 @@
+# Documentation
 FROM amazonlinux
 MAINTAINER Name <felix.ritter@gmail.com>
 RUN yum install -y gcc-c++ make
