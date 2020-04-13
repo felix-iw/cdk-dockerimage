@@ -6,6 +6,7 @@ RUN curl -sL https://rpm.nodesource.com/setup_13.x | bash -
 RUN yum install awscli -y
 RUN yum install nodejs -y
 RUN yum install python3 -y
+RUN yum install zip -y
 RUN rpm -Uvh https://packages.microsoft.com/config/rhel/7/packages-microsoft-prod.rpm
 RUN yum install dotnet-sdk-3.0 -y
 RUN node -v
